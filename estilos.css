@@ -6,7 +6,7 @@
 
 header {
   max-width: 100%;
-  height: 300px;
+  height: 250px;
   background-color: black;
   color: silver;
   display: flex;
@@ -21,6 +21,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-weight: bold;
 }
 
 nav ul {
@@ -29,4 +30,61 @@ nav ul {
   justify-content: space-around;
   align-items: center;
   list-style-type: none;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 80%;
+  border: 1px solid red;
+  margin: 0 auto;
+  min-height: 100%;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container p {
+  text-align: justify;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 60%;
+}
+
+footer {
+  max-width: 100%;
+  height: 50px;
+  background-color: black;
+  color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
