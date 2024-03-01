@@ -2,6 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Anta", "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+p {
+  margin: 20px 0;
+}
+
+button {
+  padding: 13px;
+  cursor: pointer;
+  width: 90px;
+  margin: 20px 0;
 }
 
 header {
@@ -12,6 +31,9 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/27230.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 nav {
@@ -46,8 +68,8 @@ main {
 }
 
 .container {
-  max-width: 80%;
-  border: 1px solid red;
+  max-width: 70%;
+  /*border: 1px solid red;*/
   margin: 0 auto;
   min-height: 100%;
 }
@@ -73,10 +95,15 @@ img {
   align-items: center;
 }
 
+.gallery img {
+  margin: 0;
+}
+
 .container-gallery {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   width: 60%;
+  gap: 8px;
 }
 
 footer {
@@ -87,4 +114,73 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
+}
+
+.container-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#search {
+  display: block;
+  margin: 20px 0;
+  padding: 13px 0;
+  border: 1px solid rgb(238, 233, 233);
+  outline: none;
+  padding-left: 10px;
+}
+
+#button-search {
+  border-radius: 0 5px 5px 0;
+  border: none;
+  border: 1px solid rgb(238, 233, 233);
+  font-weight: 600;
+}
+
+.wp-block-separator {
+  width: 40px;
+  transform: rotate(90deg);
+  margin: 50px auto;
+}
+
+.container-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.container-payment-metods {
+  width: 25%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mision {
+  width: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.container-social {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.container-social .social {
+  width: 35%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-social .social i {
+  font-size: 30px;
 }

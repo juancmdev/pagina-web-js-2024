@@ -1,0 +1,28 @@
+.container-productos {
+  width: 80%;
+  margin: 0 auto;
+  /*border: 1px dotted red;*/
+}
+
+.gafas {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+  place-items: center;
+}
+
+.navajas {
+  display: grid;
+  grid-template-columns: repeat(2, 40% 60%);
+  place-items: center;
+  gap: 50px;
+}
+
+.camisetas {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+  place-items: center;
+}
+
+img {
+  max-width: 100%;
+}
