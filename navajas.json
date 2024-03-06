@@ -1,0 +1,49 @@
+[
+  {
+    "Id": 1,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images/navajasCS3_Revolution-1-38-scaled-e1691510385915.jpg"
+  },
+
+  {
+    "Id": 2,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images\navajasNAVAJA-SMITH-CH156.jpg"
+  },
+
+  {
+    "Id": 3,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images\navajas\navaja-smith-ch325.jpg"
+  },
+
+  {
+    "Id": 4,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images\navajasNAVAJA-SMITH-CK33.jpg"
+  },
+
+  {
+    "Id": 5,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images\navajasNavaja-SMITH-WESSON-CK400-1.jpg"
+  },
+
+  {
+    "Id": 6,
+    "Marca": "Smith Wesson",
+    "Referencia": "CK-4",
+    "Precio": 195000,
+    "imagen": "images\navajasNavaja-SMITH-WESSON-SWFR.jpg"
+  }
+]
