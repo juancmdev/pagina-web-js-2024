@@ -1,7 +1,11 @@
+.container {
+  margin: 0 auto;
+  border: 1px dotted red;
+}
+
 .container-productos {
   width: 80%;
   margin: 0 auto;
-  /*border: 1px dotted red;*/
 }
 
 .gafas {
@@ -44,4 +48,5 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  justify-items: center;
 }
