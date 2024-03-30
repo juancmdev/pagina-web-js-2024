@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Navajas</title>
     <link rel="stylesheet" href="./estilos.css" />
-    <link rel="stylesheet" href="./productos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -44,16 +43,14 @@
           width="80%"
           height="220px"
         />
-        <div class="container-navajas">
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-          <div class="producto"></div>
-        </div>
+
+        <ul id="lista"></ul>
+
+        <template id="template">
+          <li class="producto">
+            <img src="${imagen}" id="imagen"></img>
+          </li>
+        </template>
 
         <article class="container-social">
           <h2>Síguenos en redes sociales</h2>

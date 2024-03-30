@@ -72,14 +72,14 @@ main {
   /*border: 1px solid red;*/
   margin: 0 auto;
   min-height: 100%;
-}
 
-.container h1 {
-  text-align: center;
-}
+  & h1 {
+    text-align: center;
+  }
 
-.container p {
-  text-align: justify;
+  & p {
+    text-align: justify;
+  }
 }
 
 img {
@@ -93,10 +93,10 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
 
-.gallery img {
-  margin: 0;
+  & img {
+    margin: 0;
+  }
 }
 
 .container-gallery {
@@ -183,4 +183,72 @@ footer {
 
 .container-social .social i {
   font-size: 30px;
+}
+
+/*Productos*/
+
+.container {
+  margin: 0 auto;
+  border: 1px dotted red;
+}
+
+.container-productos {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.gafas {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+  place-items: center;
+}
+
+.gafas img,
+.navajas img,
+.camisetas img,
+h3 {
+  cursor: pointer;
+}
+
+.navajas {
+  display: grid;
+  grid-template-columns: repeat(2, 40% 60%);
+  place-items: center;
+  gap: 50px;
+}
+
+.camisetas {
+  display: grid;
+  grid-template-columns: repeat(2, 60% 40%);
+  place-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.producto {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  display: grid;
+  place-items: center;
+}
+
+.producto {
+  & img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*Navajas*/
+#lista {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  gap: 20px;
+  background-color: bisque;
 }
